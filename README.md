@@ -22,16 +22,23 @@ int main(int argc, const char * argv[]) {
     std::cout << "Hello, World! " << result << "\n";
     return 0;
 }
-
-//  % xcrun --toolchain "Swift Development Snapshot" clang++ main.cpp -lMySwiftLib
-
-// output
-// Hello, World! 9
 ```
 
 Place the CXX2SwiftDemoLib-Swift.h header to where the C++ source file is.
 
 Place the libCXX2SwiftDemoLib.\* libary file should be placed where the linker can find it, on macOS e.g. `/usr/local/lib` or the build directory.
+
+Use the following build command:
+
+```bash
+xcrun --toolchain "Swift Development Snapshot" clang++ main.cpp -lCXX2SwiftDemoLib -o CXX2SwiftDemoApp -v
+```
+
+The resulting program CXX2SwiftDemoApp prints the following:
+
+```text
+Hello, World! 9
+```
 
 Also see the description in the CXX2SwiftDemoLib.swift file.
 

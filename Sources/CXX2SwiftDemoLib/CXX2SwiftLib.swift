@@ -1,5 +1,5 @@
 // Ultra simple Swift library
-// CXX2SwiftDemo.swift
+// CXX2SwiftLib.swift
 
 import Foundation
 
