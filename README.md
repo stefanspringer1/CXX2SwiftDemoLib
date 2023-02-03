@@ -6,7 +6,7 @@ You will find the library file and the CXX2SwiftDemoLib-Swift.h header generated
 
 Swift 5.8 or later is to be used.
 
-Use the following C++ code in your C++ project which calls the Swift function `my_swift_add(a:, b:)`:
+Use the following C++ code in your C++ project which calls the Swift function `my_swift_add(a:b:)`:
 
 ```C++
 //  main.cpp
