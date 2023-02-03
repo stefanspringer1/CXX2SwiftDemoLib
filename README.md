@@ -26,9 +26,9 @@ int main(int argc, const char * argv[]) {
 
 You need:
 
-- Place the CXX2SwiftDemoLib-Swift.h header to where the C++ source file is.
-- Place the libCXX2SwiftDemoLib.\* libary file should be placed where the linker can find it, on macOS e.g. `/usr/local/lib` or the build directory.
-- Including the C++ interop core headers that ship as are part of the Swift distribution. You should add an include path to your clang compilation that points to something like `<SWIFT_TOOLCHAIN_DIR>/usr/lib/swift/`.
+- Include the C++ interop core headers that ship as are part of the Swift distribution in your C++ project. You should add an include path to your clang compilation that points to something like `<SWIFT_TOOLCHAIN_DIR>/usr/lib/swift/`.
+- Include the CXX2SwiftDemoLib-Swift.h header in your C++ project.
+- Add the libCXX2SwiftDemoLib.\* libary file to your C++ project (quick solution: place it where the linker can find it, on macOS e.g. `/usr/local/lib` or the build directory).
 
 Use the following build command:
 
