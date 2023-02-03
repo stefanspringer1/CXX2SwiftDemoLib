@@ -46,5 +46,5 @@ Also see the description in the CXX2SwiftDemoLib.swift file.
 
 ## Acknowledgements
 
-The initial version was exposed in the Swift forums by user 
-Datagram see [there](https://forums.swift.org/t/report-swift-and-c-interoperability-project-progress-in-the-swift-5-7-time-frame/61005/21) and [there](https://forums.swift.org/t/report-swift-and-c-interoperability-project-progress-in-the-swift-5-7-time-frame/61005/22).
+The initial version was exposed [in the Swift forums by user 
+Datagram](https://forums.swift.org/t/report-swift-and-c-interoperability-project-progress-in-the-swift-5-7-time-frame/61005/21).
