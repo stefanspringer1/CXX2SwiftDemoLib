@@ -46,7 +46,7 @@ Also see the description in the CXX2SwiftDemoLib.swift file.
 
 ## References
 
-- [Guide: Calling Swift APIs from C++](Guide: Calling Swift APIs from C++)
+- [Guide: Calling Swift APIs from C++](https://github.com/apple/swift/blob/main/docs/CppInteroperability/UserGuide-CallingSwiftFromC%2B%2B.md)
 - Also see the [discussion about incorporating Swift argument labels into generated C++ function names](https://forums.swift.org/t/swift-to-c-incorporating-swift-argument-labels-into-generated-c-function-name/62195).
 - [C++ Interop User Manual](C++ Interop User Manual)
 - [Getting started with C++ Interoperability](https://github.com/apple/swift/blob/main/docs/CppInteroperability/GettingStartedWithC%2B%2BInterop.md)
