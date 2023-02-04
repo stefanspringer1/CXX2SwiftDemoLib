@@ -26,7 +26,7 @@ int main(int argc, const char * argv[]) {
 
 You need:
 
-- On Windows, you need to explicitely include the C++ interop core headers that ship as are part of the Swift distribution in your C++ project. You should add an include path to your clang compilation that points to something like `<SWIFT_TOOLCHAIN_DIR>/usr/lib/swift/`.
+- On Windows, you need to explicitely include the C++ interop core headers that ship as are part of the Swift distribution in your C++ project. You should add an include path to your clang compilation that points to something like `<SWIFT_TOOLCHAIN_DIR>/usr/lib/swift/` (cf. [this comment on the Swift forums][https://forums.swift.org/t/report-swift-and-c-interoperability-project-progress-in-the-swift-5-7-time-frame/61005/39)).
 - Include the CXX2SwiftDemoLib-Swift.h header in your C++ project.
 - Add the libCXX2SwiftDemoLib.\* libary file to your C++ project (quick solution: place it where the linker can find it, on macOS e.g. `/usr/local/lib` or the build directory).
 
