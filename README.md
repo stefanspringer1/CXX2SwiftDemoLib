@@ -30,7 +30,7 @@ You need:
 - Include the CXX2SwiftDemoLib-Swift.h header in your C++ project.
 - Add the libCXX2SwiftDemoLib.\* libary file to your C++ project (quick solution: place it where the linker can find it, on macOS e.g. `/usr/local/lib` or the build directory).
 
-[^1]: As of february 2023, you need to copy theme from the macOS toolchain.
+[^1]: As of february 2023, you need to copy them from the macOS toolchain.
 
 You might use the following build command when using a development snapshot of the Swift toolchain:
 
