@@ -50,6 +50,22 @@ Also see the description in the CXX2SwiftDemoLib.swift file.
 
 - [Guide: Calling Swift APIs from C++](https://github.com/apple/swift/blob/main/docs/CppInteroperability/UserGuide-CallingSwiftFromC%2B%2B.md)
 - See the [according topic on the Swift forums](https://forums.swift.org/t/report-swift-and-c-interoperability-project-progress-in-the-swift-5-7-time-frame/61005).
+- See the [announcement on the Swift forums about updates for Swift in CMake 3.26](https://forums.swift.org/t/updates-for-swift-in-the-upcoming-cmake-3-26/62943).
+C++ interoperability
+cmake
+Feb 3
+1 / 2
+Feb 4
+1d ago
+
+​
+ 
+etcwilde
+Evan Wilde
+
+1
+1d
+Good
 - Also see the [discussion about incorporating Swift argument labels into generated C++ function names](https://forums.swift.org/t/swift-to-c-incorporating-swift-argument-labels-into-generated-c-function-name/62195).
 - [C++ Interop User Manual](https://github.com/apple/swift/blob/main/docs/CppInteroperability/UserManual.md)
 - [Getting started with C++ Interoperability](https://github.com/apple/swift/blob/main/docs/CppInteroperability/GettingStartedWithC%2B%2BInterop.md)
